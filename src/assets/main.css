@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding: 10px;
+    background: #f8e7f7;
+}
+input{
+    all: unset;
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: #a832bd;
+    font-weight: 600;
+}
+
+img{
+    height: 400px !important;
+}
