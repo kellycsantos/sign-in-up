@@ -8,10 +8,10 @@
     </div>
 </template>
 <script>
-import Signin from '../components/SigninContainer.vue';
-import Signup from '../components/SignupContainer.vue';
+import Signin from './SigninContainer.vue';
+import Signup from './SignupContainer.vue';
     export default({
-        name: 'Container',
+        name: 'FormContainer',
         components:{
             Signin,
             Signup

@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import Container from '../components/Container.vue'
+import Container from '../components/FormContainer.vue'
 
 export default({
   name: 'Sign in',
