@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-white w-screen p-4 flex justify-between">
+  <div class="bg-white w-screen p-4 flex justify-between items-center">
     <h1>Header</h1>
-    <div class="flex justify-around items-center w-3/12">
+    <div class="flex justify-around items-center w-3/12 max-w-[270px]">
       <div class="profile-image flex items-center justify-center bg-red-400">
         Foto perfil
       </div>
