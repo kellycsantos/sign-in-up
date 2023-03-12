@@ -3,7 +3,6 @@
     <Header class="absolute top-4 left-0"/>
     <Container>
       <h1 class="text-4xl font-semibold">Bem vindo a plataforma</h1>
-    <Button :title="'sair'" @action="logout"></Button>
     </Container>
     
     
@@ -12,7 +11,7 @@
 </template>
 
 <script>
-import Container from '../components/FormContainer.vue'
+import Container from '../components/insidePlatform/Container.vue'
 import Button from '../components/forms/Button.vue';
 import Header from '../components/insidePlatform/Header.vue';
 

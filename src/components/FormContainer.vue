@@ -11,7 +11,7 @@
 import Signin from './SigninContainer.vue';
 import Signup from './SignupContainer.vue';
     export default({
-        name: 'Container',
+        name: 'FormContainer',
         components:{
             Signin,
             Signup
