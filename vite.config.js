@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: { include: ['firebase/firestore','firebase/app'] },
   plugins: [vue()],
   resolve: {
     alias: {
